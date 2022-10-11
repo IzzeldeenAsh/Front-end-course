@@ -57,7 +57,7 @@ font-size: 2rem;
 .card-section > .card-item{
     background-color: #e28080;
     height: 120px;
-    width: calc(20% - 12px);
+    width: calc(25% - 12px);
     color: black;
 }
  

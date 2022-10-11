@@ -1,4 +1,5 @@
 *{
+    box-sizing: border-box;
    margin: 0;
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -16,11 +17,12 @@ body{
 .layout > .sideNavBar{
     padding: 20px 20px 20px 20px;
     background-color: rgb(75, 66, 239);
-    height: calc(100vh - 40px);
-    width: 30%;
+    height: 100vh;
+    min-width: 150px;
     overflow-y: auto;
     overflow-x: hidden;
     max-width: 250px;
+    flex: 1;
  }
  .layout > .sideNavBar  > nav{
     display: flex;
@@ -41,23 +43,24 @@ font-size: 2rem;
     padding: 20px;
     font-size: 2rem;
     width: 60%;
-    height: calc(100vh - 40px);
+    height: 100vh;
     overflow: auto;
-  
+    background-color: antiquewhite;
+    flex: 1;
  }
 .card-section{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content:center;
-    height: 100%;
     gap: 12px;
-
 }
 .card-section > .card-item{
-    background-color: #e28080;
+    background-color: #950f0f;
     height: 120px;
-    width: calc(25% - 12px);
-    color: black;
+    color: black; 
+    flex-shrink: 1;
+    flex-grow: 1;
+    flex-basis: 250px;
+    color: white;
 }
  

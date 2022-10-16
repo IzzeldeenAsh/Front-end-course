@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ /* <============== General ==============> */
+
+ .box{
+    border: 2px solid red;
+    padding: 5px;
+ }
+
+.col{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+ /* <============== General ==============> */
+
+
+.main{
+display: flex;
+flex-direction: column;
+height: 100vh;
+
+}
+
+.dashboard{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: antiquewhite;
+    padding: 20px;
+    max-width: 900px;
+    border: 2px solid black;
+    margin: auto;
+}
+
+.row{
+display: flex;
+flex-direction: row;
+gap: 10px;
+border: 2px solid black;
+padding: 20px;
+
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}

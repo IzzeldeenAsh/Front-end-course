@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+main{
+    height: 100vh;
+    display: flex;  
+   
+}
+
+.container{
+    width: 1000px;
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+}
+
+.image-section{
+    width: 50%;
+    
+}
+
+.image-section img{
+    width: 100%;
+    height: 100%;
+}
+
+.sign-in-section{
+ 
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(215, 254, 241);
+    
+}
+
+.sign-in-content{
+    margin: auto;
+    width: 50%;
+}
+
+.form-container{
+display: flex;
+flex-direction: column;
+padding: 20px;
+}
+
+.sign-in-content h1{
+    font-size: 3rem;
+    text-transform: capitalize;
+}
+
+input{
+    margin: 10px 0;
+    border: none;
+    padding: 10px 20px;
+    border-bottom: 1px solid rgb(73, 73, 73);
+}
+
+
+
+.create-account{
+    text-decoration: none;
+    font-size: 12px ;
+    text-transform: capitalize;
+    text-align: right;
+    margin: 20px 0;
+    color: black;
+}
+
+input[type="submit"]{
+    cursor: pointer;
+    background: none;
+    color: #fff;
+    font-size: 1.3rem;
+    border-bottom: none;
+}
+
+
+button{
+    cursor: pointer;
+    background-color: blue;
+    border: none;
+}

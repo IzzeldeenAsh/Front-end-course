@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
+:root {
+  --first-color:#e22790;
+  --second-color:#f37024;
+  --third-color:#05b8ab;
+  --fourth-color:#ed1739;
+  --fifth-color:#babdc0;
+  --sixth-color:#f7b37f;
+  --seventh-color:#a6ce37;
+  --eighth-color:#373896;
+
+  
+}
+
+
+
+html {
+  box-sizing: border-box;
+  font-size: 12px;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  margin: 0;
+  background-color: var(--background-color);
+  color: var(--base-text-color);
+}
+
+.container{
+   
+    width: 80%;
+    height: 100vh;
+    padding: 0 10px;
+    margin: 40px auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.grid{
+    display: grid;
+    grid-template: repeat(7, auto)/repeat(18, auto);
+    grid-gap: 2px;
+}
+
+.grid-2{
+  display: grid;
+    grid-template: repeat(2, auto)/repeat(15, auto);
+    grid-gap: 2px;
+    margin: 30px 0;
+}
+
+.element{
+    width: 70px;
+    height: 70px;
+    padding: 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(99, 98, 98);
+  background: rgb(0, 186, 223);
+  color: rgb(255, 255, 255);
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+}
+.empty1{
+    grid-column: 2/18;
+}
+.empty2{
+    grid-column: 3/13;
+}
+
+.c1{
+  background-color: var(--first-color);
+}
+.c2{
+  background-color: var(--second-color);
+}
+.c3{
+  background-color: var(--third-color);
+}
+.c4{
+  background-color: var(--fourth-color);
+}
+.c5{
+  background-color: var(--fifth-color);
+}
+.c6{
+  background-color: var(--sixth-color);
+}
+.c7{
+  background-color: var(--seventh-color);
+}
+.c8{
+  background-color: var(--eighth-color);
+}

@@ -28,8 +28,7 @@ html {
 body {
   font-family: "Roboto Mono", monospace;
   margin: 0;
-  background-color: var(--background-color);
-  color: var(--base-text-color);
+  
 }
 
 .container{
